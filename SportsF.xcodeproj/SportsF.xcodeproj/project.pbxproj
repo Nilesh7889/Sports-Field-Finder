@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F816CAC1E1FAA800058CA43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F816CAB1E1FAA800058CA43 /* AppDelegate.swift */; };
+		1F816CAE1E1FAA800058CA43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F816CAD1E1FAA800058CA43 /* ViewController.swift */; };
+		1F816CB11E1FAA800058CA43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F816CAF1E1FAA800058CA43 /* Main.storyboard */; };
+		1F816CB31E1FAA800058CA43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F816CB21E1FAA800058CA43 /* Assets.xcassets */; };
+		1F816CB61E1FAA800058CA43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F816CB41E1FAA800058CA43 /* LaunchScreen.storyboard */; };
+		1F92578E1E2C766E007EBF33 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9257851E2C766E007EBF33 /* GeoFire.m */; };
+		1F92578F1E2C766E007EBF33 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9257871E2C766E007EBF33 /* GFBase32Utils.m */; };
+		1F9257901E2C766E007EBF33 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9257891E2C766E007EBF33 /* GFGeoHash.m */; };
+		1F9257911E2C766E007EBF33 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F92578B1E2C766E007EBF33 /* GFGeoHashQuery.m */; };
+		1F9257921E2C766E007EBF33 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F92578D1E2C766E007EBF33 /* GFQuery.m */; };
+		1F92579A1E2D6736007EBF33 /* FieldAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9257991E2D6736007EBF33 /* FieldAnnotation.swift */; };
+		1F9AFB731E2F9745009240A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F9AFB721E2F9745009240A8 /* GoogleService-Info.plist */; };
+		1FBAA9291E84085100F54D10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAA9251E84085100F54D10 /* HomeViewController.swift */; };
+		1FBAA92A1E84085100F54D10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAA9261E84085100F54D10 /* LoginViewController.swift */; };
+		1FBAA92B1E84085100F54D10 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAA9271E84085100F54D10 /* ResetPasswordViewController.swift */; };
+		1FBAA92C1E84085100F54D10 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAA9281E84085100F54D10 /* SignUpViewController.swift */; };
+		68EDEA8F27672343B83C6D3A /* Pods_SportsF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93042B9ED2608EC7507FAF53 /* Pods_SportsF.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F816CA81E1FAA800058CA43 /* SportsF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F816CAB1E1FAA800058CA43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F816CAD1E1FAA800058CA43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F816CB01E1FAA800058CA43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F816CB21E1FAA800058CA43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F816CB51E1FAA800058CA43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F816CB71E1FAA800058CA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F92577E1E2C766E007EBF33 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		1F92577F1E2C766E007EBF33 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		1F9257801E2C766E007EBF33 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		1F9257811E2C766E007EBF33 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		1F9257821E2C766E007EBF33 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		1F9257841E2C766E007EBF33 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		1F9257851E2C766E007EBF33 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		1F9257861E2C766E007EBF33 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		1F9257871E2C766E007EBF33 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		1F9257881E2C766E007EBF33 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		1F9257891E2C766E007EBF33 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		1F92578A1E2C766E007EBF33 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		1F92578B1E2C766E007EBF33 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		1F92578C1E2C766E007EBF33 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		1F92578D1E2C766E007EBF33 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		1F9257961E2C7988007EBF33 /* SportsF-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SportsF-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F9257991E2D6736007EBF33 /* FieldAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldAnnotation.swift; sourceTree = "<group>"; };
+		1F9AFB721E2F9745009240A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1FBAA9251E84085100F54D10 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1FBAA9261E84085100F54D10 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1FBAA9271E84085100F54D10 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		1FBAA9281E84085100F54D10 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9274D663A55CEB0FA94B6B2D /* Pods-SportsF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportsF/Pods-SportsF.debug.xcconfig"; sourceTree = "<group>"; };
+		93042B9ED2608EC7507FAF53 /* Pods_SportsF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportsF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B485E7E771022FF493756B31 /* Pods-SportsF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsF.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportsF/Pods-SportsF.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F816CA51E1FAA800058CA43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EDEA8F27672343B83C6D3A /* Pods_SportsF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F816C9F1E1FAA800058CA43 = {
+			isa = PBXGroup;
+			children = (
+				1FBAA9181E8404E400F54D10 /* Login */,
+				1F816CAA1E1FAA800058CA43 /* SportsF */,
+				1F816CA91E1FAA800058CA43 /* Products */,
+				4D32D9F312654B605BF48512 /* Pods */,
+				971CBD0A0B405BA2F24EF10E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F816CA91E1FAA800058CA43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F816CA81E1FAA800058CA43 /* SportsF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F816CAA1E1FAA800058CA43 /* SportsF */ = {
+			isa = PBXGroup;
+			children = (
+				1F9257981E2D6659007EBF33 /* Model */,
+				1F9257971E2D662B007EBF33 /* Controller */,
+				1F92577C1E2C766E007EBF33 /* GeoFire */,
+				1F816CAB1E1FAA800058CA43 /* AppDelegate.swift */,
+				1F9257961E2C7988007EBF33 /* SportsF-Bridging-Header.h */,
+				1F9AFB721E2F9745009240A8 /* GoogleService-Info.plist */,
+				1F816CB71E1FAA800058CA43 /* Info.plist */,
+				1F816CB21E1FAA800058CA43 /* Assets.xcassets */,
+				1F816CAF1E1FAA800058CA43 /* Main.storyboard */,
+				1F816CB41E1FAA800058CA43 /* LaunchScreen.storyboard */,
+			);
+			path = SportsF;
+			sourceTree = "<group>";
+		};
+		1F92577C1E2C766E007EBF33 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				1F92577D1E2C766E007EBF33 /* API */,
+				1F9257821E2C766E007EBF33 /* GeoFire-Prefix.pch */,
+				1F9257831E2C766E007EBF33 /* Implementation */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		1F92577D1E2C766E007EBF33 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1F92577E1E2C766E007EBF33 /* GeoFire.h */,
+				1F92577F1E2C766E007EBF33 /* GFCircleQuery.h */,
+				1F9257801E2C766E007EBF33 /* GFQuery.h */,
+				1F9257811E2C766E007EBF33 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1F9257831E2C766E007EBF33 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				1F9257841E2C766E007EBF33 /* GeoFire+Private.h */,
+				1F9257851E2C766E007EBF33 /* GeoFire.m */,
+				1F9257861E2C766E007EBF33 /* GFBase32Utils.h */,
+				1F9257871E2C766E007EBF33 /* GFBase32Utils.m */,
+				1F9257881E2C766E007EBF33 /* GFGeoHash.h */,
+				1F9257891E2C766E007EBF33 /* GFGeoHash.m */,
+				1F92578A1E2C766E007EBF33 /* GFGeoHashQuery.h */,
+				1F92578B1E2C766E007EBF33 /* GFGeoHashQuery.m */,
+				1F92578C1E2C766E007EBF33 /* GFQuery+Private.h */,
+				1F92578D1E2C766E007EBF33 /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		1F9257971E2D662B007EBF33 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F816CAD1E1FAA800058CA43 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1F9257981E2D6659007EBF33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F9257991E2D6736007EBF33 /* FieldAnnotation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1FBAA9181E8404E400F54D10 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1FBAA9251E84085100F54D10 /* HomeViewController.swift */,
+				1FBAA9261E84085100F54D10 /* LoginViewController.swift */,
+				1FBAA9271E84085100F54D10 /* ResetPasswordViewController.swift */,
+				1FBAA9281E84085100F54D10 /* SignUpViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		4D32D9F312654B605BF48512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9274D663A55CEB0FA94B6B2D /* Pods-SportsF.debug.xcconfig */,
+				B485E7E771022FF493756B31 /* Pods-SportsF.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		971CBD0A0B405BA2F24EF10E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93042B9ED2608EC7507FAF53 /* Pods_SportsF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F816CA71E1FAA800058CA43 /* SportsF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F816CBA1E1FAA800058CA43 /* Build configuration list for PBXNativeTarget "SportsF" */;
+			buildPhases = (
+				A2A7BD00D2468FB1856350F2 /* [CP] Check Pods Manifest.lock */,
+				1F816CA41E1FAA800058CA43 /* Sources */,
+				1F816CA51E1FAA800058CA43 /* Frameworks */,
+				1F816CA61E1FAA800058CA43 /* Resources */,
+				2E3BEE5E1F9506D8A5B9F6D3 /* [CP] Embed Pods Frameworks */,
+				CEADD4A3A1AAF287D87DA813 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsF;
+			productName = SportsF;
+			productReference = 1F816CA81E1FAA800058CA43 /* SportsF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F816CA01E1FAA800058CA43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nilesh Sisodiya";
+				TargetAttributes = {
+					1F816CA71E1FAA800058CA43 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 387ZZP34GB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F816CA31E1FAA800058CA43 /* Build configuration list for PBXProject "SportsF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F816C9F1E1FAA800058CA43;
+			productRefGroup = 1F816CA91E1FAA800058CA43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F816CA71E1FAA800058CA43 /* SportsF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F816CA61E1FAA800058CA43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F816CB61E1FAA800058CA43 /* LaunchScreen.storyboard in Resources */,
+				1F9AFB731E2F9745009240A8 /* GoogleService-Info.plist in Resources */,
+				1F816CB31E1FAA800058CA43 /* Assets.xcassets in Resources */,
+				1F816CB11E1FAA800058CA43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E3BEE5E1F9506D8A5B9F6D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportsF/Pods-SportsF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A7BD00D2468FB1856350F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEADD4A3A1AAF287D87DA813 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportsF/Pods-SportsF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F816CA41E1FAA800058CA43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F92578F1E2C766E007EBF33 /* GFBase32Utils.m in Sources */,
+				1F816CAE1E1FAA800058CA43 /* ViewController.swift in Sources */,
+				1F9257901E2C766E007EBF33 /* GFGeoHash.m in Sources */,
+				1FBAA92B1E84085100F54D10 /* ResetPasswordViewController.swift in Sources */,
+				1F816CAC1E1FAA800058CA43 /* AppDelegate.swift in Sources */,
+				1F92578E1E2C766E007EBF33 /* GeoFire.m in Sources */,
+				1FBAA92C1E84085100F54D10 /* SignUpViewController.swift in Sources */,
+				1FBAA9291E84085100F54D10 /* HomeViewController.swift in Sources */,
+				1F9257911E2C766E007EBF33 /* GFGeoHashQuery.m in Sources */,
+				1F9257921E2C766E007EBF33 /* GFQuery.m in Sources */,
+				1FBAA92A1E84085100F54D10 /* LoginViewController.swift in Sources */,
+				1F92579A1E2D6736007EBF33 /* FieldAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F816CAF1E1FAA800058CA43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F816CB01E1FAA800058CA43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F816CB41E1FAA800058CA43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F816CB51E1FAA800058CA43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F816CB81E1FAA800058CA43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F816CB91E1FAA800058CA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F816CBB1E1FAA800058CA43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9274D663A55CEB0FA94B6B2D /* Pods-SportsF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 387ZZP34GB;
+				INFOPLIST_FILE = SportsF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nileshahir.SportsF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SportsF/SportsF-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F816CBC1E1FAA800058CA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B485E7E771022FF493756B31 /* Pods-SportsF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 387ZZP34GB;
+				INFOPLIST_FILE = SportsF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nileshahir.SportsF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SportsF/SportsF-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F816CA31E1FAA800058CA43 /* Build configuration list for PBXProject "SportsF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F816CB81E1FAA800058CA43 /* Debug */,
+				1F816CB91E1FAA800058CA43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F816CBA1E1FAA800058CA43 /* Build configuration list for PBXNativeTarget "SportsF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F816CBB1E1FAA800058CA43 /* Debug */,
+				1F816CBC1E1FAA800058CA43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F816CA01E1FAA800058CA43 /* Project object */;
+}
